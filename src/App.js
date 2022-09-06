@@ -6,7 +6,7 @@ import Signin from './components/Signin';
 
 function App() {
   return (
-    <div>
+    <div className="m-0 p-0 block">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

@@ -4,7 +4,13 @@ module.exports = {
     './src/**/*.{html,js}', './node_modules/tw-elements/dist/js/**/*.js',
   ],
   theme: {
-    extend: {},
+    extend: {
+      height: {
+        'a': '94vh',
+        'b': '7vh',
+        'c': '100vh'
+      }
+    },
   },
   plugins: [
     require('tw-elements/dist/plugin')

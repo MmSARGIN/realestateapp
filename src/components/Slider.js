@@ -8,10 +8,10 @@ const Slider = () => {
 
 
     return (
-        <div className='flex justify-center items-center w-full h-screen'>
-            <div className="absolute w-full bg-blue-200">
-                <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
-                    <div className="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
+        <div className='flex justify-center items-center w-full h-full'>
+            <div className="absolute w-full h-full">
+                <div id="carouselExampleCaptions" className="carousel slide h-full" data-bs-ride="carousel">
+                    <div className="carousel-indicators absolute h-full right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
                         <button
                             type="button"
                             data-bs-target="#carouselExampleCaptions"
@@ -33,12 +33,12 @@ const Slider = () => {
                             aria-label="Slide 3"
                         ></button>
                     </div>
-                    <div className="carousel-inner relative w-full overflow-hidden">
+                    <div className="carousel-inner relative h-full w-full overflow-hidden">
                         <div className="carousel-item active  float-left w-full">
 
                             <img
                                 src="https://images.pexels.com/photos/206172/pexels-photo-206172.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                                className="block w-full h-screen "
+                                className="block w-full h-full "
                                 alt="..."
                             />
 
@@ -49,7 +49,7 @@ const Slider = () => {
                             </div>
 
                         </div>
-                        <div className="carousel-item h-screen relative float-left w-full">
+                        <div className="carousel-item h-full relative float-left w-full">
                             <img
                                 src="https://images.pexels.com/photos/1732414/pexels-photo-1732414.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                                 className="block w-full"
@@ -57,7 +57,7 @@ const Slider = () => {
                             />
 
                         </div>
-                        <div className="carousel-item h-screen relative float-left w-full">
+                        <div className="carousel-item h-full relative float-left w-full">
                             <img
                                 src="https://images.pexels.com/photos/210617/pexels-photo-210617.jpeg"
                                 className="block w-full"
@@ -87,7 +87,7 @@ const Slider = () => {
                 </div>
 
             </div>
-            <div className='absolute opacity-40 rounded-md bg-teal-500 h-4/6 w-8/12 z-0'>
+            <div className='absolute opacity-40 rounded-md bg-teal-500 h-3/4 w-9/12 z-0'>
 
             </div>
             <div className='flex flex-col justify-around items-center relative z-20 h-3/6 w-8/12'>

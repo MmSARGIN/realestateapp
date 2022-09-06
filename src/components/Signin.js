@@ -40,11 +40,11 @@ const Signin = () => {
         },
     });
     return (
-        <div className='flex justify-center h-screen'>
-            <div className='flex bg-gradient-to-r to-teal-200 from-teal-500 items-center justify-center w-11/12'>
+        <div className='flex justify-center h-c w-full'>
+            <div className='flex bg-gradient-to-r  to-teal-100 from-teal-300  items-center justify-center w-full'>
                 <ToastContainer />
-                <div className='flex bg-gradient-to-r rounded-l-lg to-teal-500 from-teal-200 items-center w-3/12 h-3/4'>
-
+                <div className='flex justify-center bg-gradient-to-r rounded-l-lg to-teal-300 from-teal-300 items-center w-3/12 h-3/4'>
+                    <h1 className='text-white text-5xl font-semibold'>Enjoy Us For Big Opportunities</h1>
                 </div>
                 <div className="flex flex-col p-6 rounded-r-lg shadow-lg h-3/4 bg-white w-8/12">
                     <div className='flex justify-center pb-9'>
@@ -72,7 +72,7 @@ const Signin = () => {
           transition
           ease-in-out
           m-0
-          focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+          focus:text-gray-700 focus:bg-white focus:border-teal-300 focus:outline-none"
                                     aria-describedby="emailHelp123" placeholder="First name" />
                             </div>
                             <div className="form-group mb-6">
@@ -96,7 +96,7 @@ const Signin = () => {
           transition
           ease-in-out
           m-0
-          focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+          focus:text-gray-700 focus:bg-white focus:border-teal-300 focus:outline-none"
                                     aria-describedby="emailHelp124" placeholder="Last name" />
                             </div>
                         </div>
@@ -120,7 +120,7 @@ const Signin = () => {
         transition
         ease-in-out
         m-0
-        focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+        focus:text-gray-700 focus:bg-white focus:border-teal-300 focus:outline-none"
                                 placeholder="Email address" />
                         </div>
                         <div className="form-group mb-6">
@@ -142,7 +142,7 @@ const Signin = () => {
         transition
         ease-in-out
         m-0
-        focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+        focus:text-gray-700 focus:bg-white focus:border-teal-300 focus:outline-none"
                                 placeholder="Password" />
                         </div>
 
@@ -151,7 +151,7 @@ const Signin = () => {
       w-full
       px-6
       py-2.5
-      bg-teal-500
+      bg-teal-300
       text-white
       font-semibold
       text-xs
@@ -159,9 +159,9 @@ const Signin = () => {
       uppercase
       rounded
       shadow-md
-      hover:bg-teal-600 hover:shadow-lg
-      focus:bg-teal-700 focus:shadow-lg focus:outline-none focus:ring-0
-      active:bg-teal-800 active:shadow-lg
+      hover:bg-teal-400 hover:shadow-lg
+      focus:bg-teal-400 focus:shadow-lg focus:outline-none focus:ring-0
+      active:bg-teal-400 active:shadow-lg
       transition
       duration-150
       ease-in-out">Sign up</button>

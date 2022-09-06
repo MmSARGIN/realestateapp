@@ -40,14 +40,14 @@ const Login = () => {
             errorfy()
         )
     }
-    return <div className="w-full ">
-        <section className="h-full gradient-form bg-teal-100 md:h-screen">
+    return <div className="w-full h-c">
+        <section className="h-full flex justify-center items-center gradient-form bg-gradient-to-r from-teal-500 to-teal-200 md:h-full">
             <ToastContainer />
-            <div className=" px-6 h-full">
+            <div className="w-full px-6 h-3/4">
                 <div className="flex justify-center items-center flex-wrap h-full g-6 text-gray-800">
-                    <div className="xl:w-10/12 ">
+                    <div className="xl:w-10/12">
                         <div className="block  bg-white shadow-lg rounded-lg">
-                            <div className="lg:flex  lg:flex-wrap g-0">
+                            <div className="lg:flex h-full lg:flex-wrap g-0">
                                 <div className="lg:w-6/12 px-4 md:px-0">
                                     <div className="md:p-12 md:mx-6">
                                         <div className="text-center">
@@ -82,7 +82,7 @@ const Login = () => {
                                             </div>
                                             <div className="text-center pt-1 mb-12 pb-1">
                                                 <button
-                                                    className="inline-block bg-gradient-to-r from-teal-600 to-teal-300 px-6 py-2.5 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-teal-700 hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out w-full mb-3"
+                                                    className="inline-block bg-gradient-to-r from-teal-500 to-teal-200 px-6 py-2.5 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-teal-700 hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out w-full mb-3"
                                                     type="button"
                                                     data-mdb-ripple="true"
                                                     data-mdb-ripple-color="light"
@@ -97,7 +97,7 @@ const Login = () => {
                                                 <p className="mb-0 mr-2">Don't have an account?</p>
                                                 <button
                                                     type="button"
-                                                    className="inline-block px-6 py-2 border-2 border-teal-600 text-teal-600 font-medium text-xs leading-tight uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
+                                                    className="inline-block px-6 py-2 border-2 border-teal-200 text-teal-500 font-medium text-xs leading-tight uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
                                                     data-mdb-ripple="true"
                                                     data-mdb-ripple-color="light"
                                                 >
@@ -108,7 +108,7 @@ const Login = () => {
                                     </div>
                                 </div>
                                 <div
-                                    className="lg:w-6/12 flex bg-gradient-to-r from-teal-600 to-teal-300 items-center lg:rounded-r-lg rounded-b-lg lg:rounded-bl-none"
+                                    className="lg:w-6/12 flex bg-gradient-to-r from-teal-200 to-teal-500 items-center lg:rounded-r-lg rounded-b-lg lg:rounded-bl-none"
 
                                 >
                                     <div className="text-white px-4 py-6 md:p-12 md:mx-6">

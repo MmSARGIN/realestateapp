@@ -2,9 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
-    return <div className=" flex flex-col justify-between">
+    return <div className=" flex items-center fixed z-10 w-full  bg-white justify-between h-b">
 
-        <div className="flex w-full  justify-around items-center border-b h-12">
+        <div className="flex w-full  justify-around items-center h-12">
             {/* <div className="flex justify-center w-4/12 ">
                 <h1 className="flex justify-center hover:bg-teal-500 cursor-pointer bg-white text-teal-500 hover:text-white border-none font-semibold rounded-3xl border-black p-2 border w-2/4">RealEstateApp</h1>
             </div> */}
@@ -16,13 +16,13 @@ const Navbar = () => {
                     </Link>
                 </div>
 
-                <div className="text-xl hover:bg-teal-500 cursor-pointer hover:text-white px-5 py-2.5 rounded-full">
+                <div className="text-xl bg-teal-100  rounded-md cursor-pointer hover:text-white px-5 py-2.5">
                     Contact
                 </div>
-                <div className="text-xl hover:bg-teal-200 cursor-pointer hover:text-white px-5 py-2.5 rounded-full">
+                <div className="text-xl bg-teal-100 cursor-pointer hover:text-white px-5 py-2.5 rounded-full">
                     Galery
                 </div>
-                <div className="text-xl hover:bg-teal-800 cursor-pointer hover:text-white  rounded-full">
+                <div className="text-xl bg-teal-400 cursor-pointer hover:text-white  rounded-full">
                     <Link to='/login' className="" >
                         <div className="w-full h-full px-5 py-2.5">Login
                         </div>

@@ -2,7 +2,7 @@ import React from "react";
 import Slider from './Slider'
 
 const Home = () => {
-    return <div className='flex flex-col items-center'>
+    return <div className='flex flex-col items-center h-c'>
         <Slider />
     </div>
 
