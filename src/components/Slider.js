@@ -87,7 +87,7 @@ const Slider = () => {
                 </div>
 
             </div>
-            <div className='absolute opacity-40 rounded-md bg-teal-500 h-3/4 w-9/12 z-0'>
+            <div className='absolute opacity-30 rounded-md bg-sky-500 h-3/4 w-9/12 z-0'>
 
             </div>
             <div className='flex flex-col justify-around items-center relative z-20 h-3/6 w-8/12'>
@@ -97,8 +97,8 @@ const Slider = () => {
                     </div>
                 </div>
                 <div className='text-white text-xl flex w-10/12 justify-evenly'>
-                    <button className='bg-white text-teal-600 hover:bg-sky-100 p-2 w-3/12 rounded-full'>Get Started</button>
-                    <button className='bg-white text-teal-600 hover:bg-sky-100 p-2 w-3/12 rounded-full'>Sign In</button>
+                    <button className='bg-white text-sky-600 hover:bg-sky-100 p-2 w-3/12 rounded-full'>Get Started</button>
+                    <button className='bg-white text-sky-600 hover:bg-sky-100 p-2 w-3/12 rounded-full'>Sign In</button>
 
                 </div>
 

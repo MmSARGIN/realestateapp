@@ -41,7 +41,7 @@ const Login = () => {
         )
     }
     return <div className="w-full h-c">
-        <section className="h-full flex justify-center items-center gradient-form bg-gradient-to-r from-teal-500 to-teal-200 md:h-full">
+        <section className="h-full flex justify-center items-center gradient-form bg-gradient-to-r from-sky-200 to-sky-50 md:h-full">
             <ToastContainer />
             <div className="w-full px-6 h-3/4">
                 <div className="flex justify-center items-center flex-wrap h-full g-6 text-gray-800">
@@ -53,10 +53,10 @@ const Login = () => {
                                         <div className="text-center">
                                             <img
                                                 className="mx-auto w-48 rounded-full"
-                                                src="https://images.pexels.com/photos/7697746/pexels-photo-7697746.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                                                src="https://images.pexels.com/photos/823841/pexels-photo-823841.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                                                 alt="logo"
                                             />
-                                            <h4 className="text-xl font-semibold mt-1 mb-12 pb-1">Entry of Admin</h4>
+                                            <h4 className="text-2xl text-sky-500 font-semibold mt-5 mb-5 pb-1">Entry of Admin</h4>
                                         </div>
                                         <form>
                                             <p className="mb-4">Please login to your account</p>
@@ -82,7 +82,7 @@ const Login = () => {
                                             </div>
                                             <div className="text-center pt-1 mb-12 pb-1">
                                                 <button
-                                                    className="inline-block bg-gradient-to-r from-teal-500 to-teal-200 px-6 py-2.5 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-teal-700 hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out w-full mb-3"
+                                                    className="inline-block bg-gradient-to-r from-sky-300 to-sky-200 px-6 py-2.5 text-white font-semibold text-md leading-tight uppercase rounded shadow-md hover:bg-teal-700 hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out w-full mb-3"
                                                     type="button"
                                                     data-mdb-ripple="true"
                                                     data-mdb-ripple-color="light"
@@ -97,7 +97,7 @@ const Login = () => {
                                                 <p className="mb-0 mr-2">Don't have an account?</p>
                                                 <button
                                                     type="button"
-                                                    className="inline-block px-6 py-2 border-2 border-teal-200 text-teal-500 font-medium text-xs leading-tight uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
+                                                    className="inline-block px-6 py-2 border-2 border-sky-200 text-sky-500 font-medium text-xs leading-tight uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
                                                     data-mdb-ripple="true"
                                                     data-mdb-ripple-color="light"
                                                 >
@@ -108,7 +108,7 @@ const Login = () => {
                                     </div>
                                 </div>
                                 <div
-                                    className="lg:w-6/12 flex bg-gradient-to-r from-teal-200 to-teal-500 items-center lg:rounded-r-lg rounded-b-lg lg:rounded-bl-none"
+                                    className="lg:w-6/12 flex bg-gradient-to-r from-sky-200 to-sky-500 items-center lg:rounded-r-lg rounded-b-lg lg:rounded-bl-none"
 
                                 >
                                     <div className="text-white px-4 py-6 md:p-12 md:mx-6">
