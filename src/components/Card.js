@@ -3,9 +3,15 @@ import React, { useState, useEffect } from "react";
 const Card = (props) => {
 
     const [product, setproduct] = useState();
+    const requestOptions = {
+        method: 'GET',
+        headers: { 'Authorization': 'Bearer 00D8d000005BGrx!AQEAQA6LXuxhc6MRzbaTmd5cuAT7Kifzq58l1sYwiaarN717V8MeC9d6.mWTISAAH.9h.kRpbP_B7P2OMF9WjGS12Inz74PS' },
+
+
+    };
     useEffect(() => {
 
-        fetch('https://rea3-dev-ed.my.salesforce.com/services/apexrest/Property')
+        fetch('https://rea3-dev-ed.my.salesforce.com/services/apexrest/Property', requestOptions)
             .then(res => res.json())
             .then(json => {
                 console.log(json);
