@@ -40,19 +40,19 @@ const Login = () => {
             errorfy()
         )
     }
-    return <div className="w-full h-c">
-        <section className="h-full flex justify-center items-center gradient-form bg-gradient-to-r from-sky-200 to-sky-50 md:h-full">
+    return <div className="flex justify-center items-center bg-rose-300 w-full h-c">
+        <section className="flex h-full justify-center items-center gradient-form bg-gradient-to-r from-sky-200 to-sky-200">
             <ToastContainer />
-            <div className="w-full px-6 h-3/4">
-                <div className="flex justify-center items-center flex-wrap h-full g-6 text-gray-800">
-                    <div className="xl:w-10/12">
-                        <div className="block  bg-white shadow-lg rounded-lg">
+            <div className="w-full h-full px-6">
+                <div className="flex h-full justify-center items-start flex-wrap g-6 text-gray-800">
+                    <div className="flex items-center h-full w-11/12">
+                        <div className="block h-5/6 mt-10 bg-white shadow-lg rounded-lg">
                             <div className="lg:flex h-full lg:flex-wrap g-0">
-                                <div className="lg:w-6/12 px-4 md:px-0">
-                                    <div className="md:p-12 md:mx-6">
-                                        <div className="text-center">
+                                <div className="lg:w-6/12 h-full px-4 md:px-0">
+                                    <div className="h-full md:mx-6">
+                                        <div className="w-full h-3/6 text-center flex flex-col items-center justify-around">
                                             <img
-                                                className="mx-auto w-48 rounded-full"
+                                                className="w-2/6 rounded-full"
                                                 src="https://images.pexels.com/photos/823841/pexels-photo-823841.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                                                 alt="logo"
                                             />
@@ -80,7 +80,7 @@ const Login = () => {
                                                     onChange={handleChangeEmail}
                                                 />
                                             </div>
-                                            <div className="text-center pt-1 mb-12 pb-1">
+                                            <div className="text-center">
                                                 <button
                                                     className="inline-block bg-gradient-to-r from-sky-300 to-sky-200 px-6 py-2.5 text-white font-semibold text-md leading-tight uppercase rounded shadow-md hover:bg-teal-700 hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out w-full mb-3"
                                                     type="button"
@@ -91,28 +91,18 @@ const Login = () => {
                                                 >
                                                     Log in
                                                 </button>
-                                                <a className="text-gray-500" href="#!">Forgot password?</a>
+
                                             </div>
-                                            <div className="flex items-center justify-between pb-6">
-                                                <p className="mb-0 mr-2">Don't have an account?</p>
-                                                <button
-                                                    type="button"
-                                                    className="inline-block px-6 py-2 border-2 border-sky-200 text-sky-500 font-medium text-xs leading-tight uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
-                                                    data-mdb-ripple="true"
-                                                    data-mdb-ripple-color="light"
-                                                >
-                                                    Sign In
-                                                </button>
-                                            </div>
+
                                         </form>
                                     </div>
                                 </div>
                                 <div
-                                    className="lg:w-6/12 flex bg-gradient-to-r from-sky-200 to-sky-500 items-center lg:rounded-r-lg rounded-b-lg lg:rounded-bl-none"
+                                    className="h-full lg:w-6/12 flex bg-gradient-to-r from-sky-200 to-sky-500 items-center lg:rounded-r-lg rounded-b-lg lg:rounded-bl-none"
 
                                 >
-                                    <div className="text-white px-4 py-6 md:p-12 md:mx-6">
-                                        <h4 className="text-5xl font-semibold mb-6">Just smile and be happy</h4>
+                                    <div className="text-white px-4 md:mx-6">
+                                        <h4 className="text-5xl font-semibold">Just smile and be happy</h4>
                                         {/* <p className="text-sm">
                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
