@@ -13,7 +13,7 @@ const Card = (props) => {
     // requestOptions = gonderilecek
     useEffect(() => {
 
-        fetch("https://fakestoreapi.com/products")
+        fetch("https://rea3-dev-ed.my.salesforce.com/services/apexrest/Property", requestOptions)
             .then(res => res.json())
             .then(json => {
                 console.log(json);
