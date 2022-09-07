@@ -5,9 +5,9 @@ const Navbar = () => {
     return <div className=" flex items-center fixed z-10 w-full  bg-white justify-between h-b">
 
         <div className="flex w-full  justify-around items-center h-12">
-            {/* <div className="flex justify-center w-4/12 ">
-                <h1 className="flex justify-center hover:bg-teal-500 cursor-pointer bg-white text-teal-500 hover:text-white border-none font-semibold rounded-3xl border-black p-2 border w-2/4">RealEstateApp</h1>
-            </div> */}
+            <div className="flex justify-center w-4/12 ">
+                <h1 className="flex justify-center hover:bg-sky-500 cursor-pointer bg-white text-sky-500 hover:text-white border-none font-semibold rounded-3xl border-black p-2 border w-2/4">RealEstateApp</h1>
+            </div>
             <div className="flex text-gray-500 items-center justify-around w-7/12">
                 <div className="text-xl hover:text-3xl cursor-pointer w-1/12 flex justify-center px-5 py-2.5 rounded-full">
                     <Link to='/' >
@@ -16,18 +16,21 @@ const Navbar = () => {
                     </Link>
                 </div>
 
-                <div className="text-xl  rounded-md cursor-pointer ">
-                    <Link to='/properties' className="" >
-                        <div className="w-full h-full px-5 py-2.5">Properties on Sales
+                <div className="text-xl hover:text-3xl cursor-pointer w-1/12 flex justify-center px-5 py-2.5 rounded-full">
+                    <Link to='/properties' >
+                        <div className="w-full h-full px-5 py-2.5">Sale
                         </div>
                     </Link>
                 </div>
-                <div className="text-xl cursor-pointer hover:text-white px-5 py-2.5 rounded-full">
-                    Contact
+                <div className="text-xl hover:text-3xl cursor-pointer w-1/12 flex justify-center px-5 py-2.5 rounded-full">
+                    <Link to='/about' >
+                        <div className="w-full h-full px-5 py-2.5">AboutUs
+                        </div>
+                    </Link>
                 </div>
-                <div className="text-xl cursor-pointer hover:text-white  rounded-full">
-                    <Link to='/about' className="" >
-                        <div className="w-full h-full px-5 py-2.5">About Us
+                <div className="text-xl hover:text-3xl cursor-pointer w-1/12 flex justify-center px-5 py-2.5 rounded-full">
+                    <Link to='/about' >
+                        <div className="w-full h-full px-5 py-2.5">Contact
                         </div>
                     </Link>
                 </div>
