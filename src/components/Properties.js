@@ -17,7 +17,7 @@ const Properties = (props) => {
         fetch("https://rea3-dev-ed.my.salesforce.com/services/apexrest/Property", requestOptions)
             .then(res => res.json())
             .then(json => {
-                console.log(json);
+                // console.log(json);
                 setproduct(json);
             })
 
@@ -32,7 +32,7 @@ const Properties = (props) => {
             <div className="flex w-full h-full justify-center items-center overflow-auto">
                 <div className="flex  flex-col w-5/6 justify-start items-center h-full">
                     {product ? product.map((i) => (
-                        <div className="flex bg-white min-h-1/2 max-h-1/2 mb-5 p-2 border-2 border-blue-300 flex-col md:flex-row w-full rounded-lg  shadow-lg">
+                        <div key={i.Id} className="flex bg-white min-h-1/2 max-h-1/2 mb-5 p-2 border-2 border-blue-300 flex-col md:flex-row w-full rounded-lg  shadow-lg">
                             <img className=" w-2/6 min-h-72 h-full object-cover rounded-t-lg md:rounded-none md:rounded-l-lg"
                                 src={i.Image_URL__c}
                                 alt="" />

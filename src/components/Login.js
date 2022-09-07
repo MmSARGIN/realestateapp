@@ -40,7 +40,7 @@ const Login = () => {
             errorfy()
         )
     }
-    return <div className="flex justify-center items-center bg-rose-300 w-full h-c">
+    return <div className="flex justify-center items-center w-full h-c">
         <section className="flex h-full justify-center items-center gradient-form bg-gradient-to-r from-sky-200 to-sky-200">
             <ToastContainer />
             <div className="w-full h-full px-6">
