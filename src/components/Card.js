@@ -35,7 +35,7 @@ const Card = (props) => {
                             <p className="text-gray-700 text-base">
                                 {i.Property_Description__c}
                             </p>
-                            <p className="text-gray-800 text-xs">{i.Price__c}</p>
+                            <p className="text-gray-800 text-xs">{i.Price__c} $</p>
                             <p className="text-gray-800 text-xs">{i.Address__c}</p>
                             <div className="bg-sky-400 w-full hover:bg-sky-500 rounded-md flex justify-center p-2">
                                 <button className="text-xl w-full h-full text-white">View Details</button>
