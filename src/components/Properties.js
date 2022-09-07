@@ -87,9 +87,9 @@ const Properties = (props) => {
                                     </div>
 
                                 </div>
-                                <div className="bg-sky-400 w-full hover:bg-sky-500 rounded-md flex justify-center p-2">
+                                {/* <div className="bg-sky-400 w-full hover:bg-sky-500 rounded-md flex justify-center p-2">
                                     <button className="text-xl w-full h-full text-white">View Details</button>
-                                </div>
+                                </div> */}
                             </div>
 
                         </div>
