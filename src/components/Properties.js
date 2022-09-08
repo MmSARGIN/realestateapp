@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from "react";
-import Card from "./Card";
+
 
 const Properties = (props) => {
-
     const [product, setproduct] = useState();
     const requestOptions = {
         method: 'GET',
-        headers: { 'Authorization': 'Bearer 00D8d000005BGrx!AQEAQEFAFOolawM4HXM4SpQ1O_GeyEPjtZmstf2SZvBdaN6LENWuk0MU1lraAu5UqrDmMPEEZqooRaTg4yNRK3ksMnB8erSy' },
+        headers: { 'Authorization': `Bearer ${process.env.REACT_APP_BEARER_KEY}` },
 
 
     };
@@ -94,9 +93,9 @@ const Properties = (props) => {
 
                         //     </div>
                         // )
-                        <div class="flex p-2 w-full justify-center items-center">
-                            <div class="flex flex-col w-full md:flex-row  md:max-w-5xl rounded-lg bg-white shadow-lg">
-                                <img class=" w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg" src={i.Image_URL__c} alt="" />
+                        <div key={i.Id} className="flex p-2 w-full justify-center items-center">
+                            <div key={i.Id} className="flex flex-col w-full md:flex-row  md:max-w-5xl rounded-lg bg-white shadow-lg">
+                                <img key={i.Id} className=" w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg" src={i.Image_URL__c} alt="" />
                                 <div className="p-2  h-full text-sky-400 w-full flex flex-col items-center justify-between ">
                                     <div className="flex justify-center items-center w-full">
                                         <h5 className=" text-sky-600 font-semibold">
