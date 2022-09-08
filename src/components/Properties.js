@@ -3,6 +3,8 @@ import React, { useState, useEffect } from "react";
 
 const Properties = (props) => {
     const [product, setproduct] = useState();
+    console.log(process.env);
+
     const requestOptions = {
         method: 'GET',
         headers: { 'Authorization': `Bearer ${process.env.REACT_APP_BEARER_KEY}` },
