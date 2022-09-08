@@ -3,11 +3,11 @@ import React, { useState, useEffect } from "react";
 
 const Properties = (props) => {
     const [product, setproduct] = useState();
-    console.log(process.env);
+
 
     const requestOptions = {
         method: 'GET',
-        headers: { 'Authorization': `Bearer ${process.env.REACT_APP_BEARER_KEY}` },
+        headers: { 'Authorization': `Bearer 00D8d000005BGrx!AQEAQC2D9ErYvVVRLov7CjlEpP5wNDRuldDPFIeB8_rbmMOEbKrBMb09SfrQ2Ner_u91yTS_aoWMJGwY06IZwylg941sj7NV` },
 
 
     };
