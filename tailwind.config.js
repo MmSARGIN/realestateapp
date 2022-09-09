@@ -9,7 +9,8 @@ module.exports = {
         'a': '84vh',
         'b': '7vh',
         'c': '100vh',
-        'd': '40vh'
+        'd': '40vh',
+        'e': '1px'
       }
     },
     fontSize: {
