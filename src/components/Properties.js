@@ -7,7 +7,7 @@ const Properties = (props) => {
 
     const requestOptions = {
         method: 'GET',
-        headers: { 'Authorization': `Bearer 00D8d000005BGrx!AQEAQNp6M_VQ1cSM.XRuAfj1EUt2ojbWDEx_9e454vbfKTSSH0gc25kSPmCihQY7_s6M8HXECi_f1nvdRGk_4q3PF0PWJxQM` },
+        headers: { 'Authorization': `Bearer 00D8d000005BGrx!AQEAQDB4iyv5ryF6jB5o0U_3UGQInAw8l_fl7DWA18zNQroy07C48pADNI0tNjDGCjQ3PBSeOPLxd6AQk4F26B2QiUdIX_Fb` },
 
 
     };
@@ -18,7 +18,7 @@ const Properties = (props) => {
         fetch("https://rea3-dev-ed.my.salesforce.com/services/apexrest/Property", requestOptions)
             .then(res => res.json())
             .then(json => {
-                // console.log(json);
+                console.log(json);
                 setproduct(json);
             })
 
