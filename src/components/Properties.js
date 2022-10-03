@@ -7,7 +7,7 @@ const Properties = (props) => {
 
     const requestOptions = {
         method: 'GET',
-        headers: { 'Authorization': `Bearer 00D8d000005BGrx!AQEAQDB4iyv5ryF6jB5o0U_3UGQInAw8l_fl7DWA18zNQroy07C48pADNI0tNjDGCjQ3PBSeOPLxd6AQk4F26B2QiUdIX_Fb` },
+        headers: { 'Authorization': `Bearer 00D8d000005BGrx!AQEAQFHfe8BafGXAsmZWUuQF4OabiyG9QP6DuBG8mI2XGviIdE6blhQI_HC0XMWjLn3ex4Rr_crC2f52R9WOc2hAwxEixaSs` },
 
 
     };
